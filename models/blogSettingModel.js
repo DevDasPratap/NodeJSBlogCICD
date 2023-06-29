@@ -9,10 +9,6 @@ const blogSetting = mongoose.Schema({
         type: String,
         required: true
     },
-    blog_title: {
-        type: String,
-        required: true
-    },
     blog_description: {
         type: String,
         required: true
